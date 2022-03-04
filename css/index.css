@@ -75,6 +75,16 @@
     margin-bottom: 0;
   }
 
+  .grid-single-letter-hr{
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+
+  .desc-single-letter-hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   .blex-grid-term{
     width: 270px;
     margin-bottom: 40px;
