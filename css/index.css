@@ -145,8 +145,13 @@
   }
 
   .mdkl-body a{
+    text-decoration: none;
+    color:#007bff;
+  }
+
+  .mdkl-body a:hover{
+    color:#007bff;
     text-decoration: underline;
-    color:#000;
   }
 
   .dark-row{
