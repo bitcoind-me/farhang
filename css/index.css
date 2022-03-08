@@ -156,3 +156,9 @@
   .light-row{
     background-color: #fefefe;
   }
+
+  .ir_title {
+    font-family: IranSans;
+    font-size: 1em;
+    line-height: 1.7em;
+  }
