@@ -1,0 +1,174 @@
+51 Percent Attack
+Adam Back
+Adaptor Signature
+Address
+Air-Gapped
+Altcoin
+Anonymous
+Application-Specific Integrated Circuit (ASIC)
+Archival Node
+Austrian School Of Economics
+B-money
+Backwards Compatibility
+Base58
+Base64
+Batching
+Bech32
+Bech32m
+Berkeley DB
+Big Brother
+Binary
+BIP39 (Mnemonic Phrases)
+Bit
+Bit Gold
+Bitcoin
+bitcoin
+Bitcoin Core
+Bitcoin Implementations
+Bitcoin Improvement Proposal (BIP)
+Bitcoin Independence Day
+Bitcoin-Qt
+Bitcoiner
+Bitcointalk
+Block
+Block Explorer
+Block Header
+Block Height
+Block Reward
+Block Weight
+Blockchain
+BTC
+Byte
+Byzantine Fault Tolerance
+Byzantine Generals Problem
+Cantillon Effect
+Cash
+Censorship Resistance
+Chain Analysis
+Change Output
+Checksum
+Child-Pays-for-Parent (CPFP)
+Coin Selection
+Coinbase Transaction
+CoinJoin
+Cold Storage
+Common Input Ownership Heuristic
+Confirmation
+Consensus
+Cryptography
+Custodial
+Cypherpunk
+Debasement
+Decentralized Ledger
+Denial of Service (DoS) Attack
+Derivation Path
+Difficulty
+Discreet Log Contract (DLC)
+Discrete Log Problem (DLP)
+Divisibility
+Double Spend
+Dust
+Dust Attack
+ECDSA
+Eclipse Attack
+Encoding
+Encryption
+End-to-End (E2E) Encryption
+Executive Order 6102
+Faucet
+Fiat Currency
+Fork
+Fungibility
+Game Theory
+Generator Point
+Graphical User Interface (GUI)
+Gresham's Law
+Halving
+Hard Cap
+Hard Commodity
+Hard Fork
+Hardware Wallet
+Hash Function
+Hash Rate
+Hexadecimal
+Hierarchical Deterministic (HD) Wallet
+HODL
+Hot Wallet
+Hyperinflation
+Immutability
+Inflation
+Initial Block Download (IBD)
+Input Sequence (nSequence)
+Know Your Customer (KYC)
+Layered Architecture
+Light Client
+M-of-N
+Mainnet
+Malleability
+Medium of Exchange
+Mempool
+Miner-Activated Soft Fork (MASF)
+Mining
+Mining Pool
+Mixing
+Mnemonic
+Multisig
+MuSig
+Node => Bitcoin Node
+Non-Custodial
+Nonce
+Off-Chain
+On-Chain
+Opcode
+Open-source software (OSS)
+Orphan Block
+Partially Signed Bitcoin Transaction (PSBT)
+PayJoin
+Peer-to-Peer (P2P)
+Peg
+Preimage
+Private Key
+Proof-of-Work (PoW)
+Protocol
+Pseudonym
+Public Key
+Qr Code
+Regtest
+Reorganization (reorg)
+Replace-By-Fee (RBF)
+Round Amounts Heuristic
+Satoshi (Sats)
+Satoshi Nakamoto
+Scarcity
+Schnorr Signature
+Script => Bitcoin Script
+Script Type Heuristic
+Secp256k1
+Seed
+SegWit
+SHA-256
+Sidechain
+Signature
+Signet
+Simplified Payment Verification (SPV)
+Smart Contract
+Soft Fork
+Store of Value (SoV)
+Sybil Attack
+Tainted
+tBTC
+Testnet
+Time Preference
+Timelock
+Tor Network
+Transaction
+Transaction Fee
+Transaction ID (txid)
+Unit of Account
+Unix Timestamp
+User-Activated Soft Fork (UASF)
+UTXO Set
+Wallet
+Watch-Only Wallet
+Whitepaper => Bitcoin Whitepaper
+Xpub => Extended Public Key (Xpub)
