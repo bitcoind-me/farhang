@@ -1,5 +1,5 @@
   body {
-    background-color: #f0f0f0;
+    background-color: #fefefe;
   }
 
   /* latin */
@@ -141,17 +141,29 @@
     direction: rtl;
     text-align: right;
     font-family: IranSans;
+    line-height: 1.7em;
   }
 
   .mdkl-body a{
+    text-decoration: none;
+    color:#007bff;
+  }
+
+  .mdkl-body a:hover{
+    color:#007bff;
     text-decoration: underline;
-    color:#000;
   }
 
   .dark-row{
-    background-color: #ddd;
+    background-color: #fefefe;
   }
 
   .light-row{
-    background-color: #f0f0f0;
+    background-color: #fefefe;
+  }
+
+  .ir_title {
+    font-family: IranSans;
+    font-size: 1em;
+    line-height: 1.7em;
   }
