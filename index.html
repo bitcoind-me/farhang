@@ -20,28 +20,54 @@
     <meta property="twitter:domain" content="bitcoind.me">
     <link href="css/bootstrap-4.6.min.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
+    <link href="css/hamburgermenu-vertical.css" rel="stylesheet" />
+    <link href="css/gototop.css" rel="stylesheet" />
 </head>
 
 <body>
+
     <nav role="navigation">
         <div class="blex-nav-wrapper pb-1">
             <div class="row">
                 <div class="col text-left"
-                    style="font-family: 'Baloo Bhaina 2', cursive;font-size:130%;padding-top:.8em;padding-bottom:.3em;padding-left:1.5em;">
-                    <div style="font-family: 'Baloo Bhaina 2', cursive;">
-                        <span style="color:#ffe599;">farhang</span><span style="color:#ffa233;"><span
-                                style="color:#fff;">.</span>bitcoind</span><span style="color:#fff;">.me</span>
+                    style="font-family: 'Baloo Bhaina 2', cursive;font-size:150%;padding-top:.8em;padding-bottom:.3em;padding-left:1.5em;">
+                    <div style="font-family: 'Baloo Bhaina 2', cursive;cursor: pointer;" onclick="topFunction()">
+                        <span style="color:#ffe599;">farhang</span><span style="color:#ffa233;">
+                            <span style="color:#fff;">.</span>bitcoind</span><span style="color:#fff;">.me</span>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="rtl text-center" style="padding-top:120px;">
-        <span style="font-family:IranSans-bold;font-size:1.45em;color:#344455;">
+
+    <ul class="navbar" id="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+        <a class="close" href="#">
+            <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+        </a>
+    </ul>
+    <a class="hamburger" href="#navbar">
+        <img src="assets/images/ham-light.png" alt="menu">
+    </a>
+
+    <div class="container rtl text-right" style="padding-top:140px;">
+        <a href="https://bitcoind.me" style="text-decoration: none;">
+            <span style="font-family:IranSans-bold;font-size:1.2em;color:#344455;">
+                منابع فارسی بیت‌کوین
+            </span>
+        </a>
+        <span style="font-family:IranSans;font-size:1.3em;color:#344455;">
+            &nbsp;&gt&nbsp;
+        </span>
+        <span style="font-family:IranSans-bold;font-size:1.2em;color:#344455;">
             فرهنگ توصیفی اصطلاحات بیت‌کوین
         </span>
     </div>
-    <div class="container" style="color:#272838;padding-top:130px;">
+
+    <div class="container" style="color:#272838;padding-top:110px;">
         <div class="blex-wrapper">
             <div class="blex-card">
                 <div class="blex-card-title">
@@ -7946,6 +7972,28 @@
             </div>
         </div>
     </div>
+
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  -->
+    <img onclick="topFunction()" src="assets/images/top-arrow.png" style="width:50px;" id="myBtn">
+    <script type="text/javascript">
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+    </script>
 
 </body>
 

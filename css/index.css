@@ -113,11 +113,11 @@
   .blex-nav-wrapper {
     left: 0;
     right: 0;
-    z-index: 100;
+    top:0;
     position: fixed;
     background-color: #272838;
-    z-index: 100;
     box-shadow: #444444 0 0 20px;
+    z-index: 5;
   }
 
   .h1-en {
