@@ -22,6 +22,22 @@
     <link href="css/index.css" rel="stylesheet" />
     <link href="css/hamburgermenu-vertical.css" rel="stylesheet" />
     <link href="css/gototop.css" rel="stylesheet" />
+
+    <!-- Matomo -->
+    <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//stats.bitcoind.me/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '2']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
 </head>
 
 <body>
@@ -31,9 +47,11 @@
             <div class="row">
                 <div class="col text-left"
                     style="font-family: 'Baloo Bhaina 2', cursive;font-size:150%;padding-top:.8em;padding-bottom:.3em;padding-left:1.5em;">
-                    <div style="font-family: 'Baloo Bhaina 2', cursive;cursor: pointer;" onclick="topFunction()">
-                        <span style="color:#ffe599;">farhang</span><span style="color:#ffa233;">
-                            <span style="color:#fff;">.</span>bitcoind</span><span style="color:#fff;">.me</span>
+                    <div style="font-family: 'Baloo Bhaina 2', cursive;cursor: pointer;">
+                        <a href="#" style="text-decoration: none;">
+                            <span style="color:#ffe599;">farhang.</span><span
+                                style="color:#ffa233;">bitcoind</span><span style="color:#fff;">.me</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -8108,14 +8126,12 @@
         </div>
     </div>
 
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  -->
-    <img onclick="topFunction()" src="assets/images/top-arrow.png" style="width:50px;" id="myBtn">
+    <a href="#">
+        <img src="assets/images/top-arrow.png" style="width:50px;" id="myBtn">
+    </a>
     <script type="text/javascript">
-        //Get the button:
         mybutton = document.getElementById("myBtn");
-        // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
-
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
@@ -8123,11 +8139,6 @@
                 mybutton.style.display = "none";
             }
         }
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        } 
     </script>
 
 </body>
