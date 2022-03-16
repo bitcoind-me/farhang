@@ -145,12 +145,12 @@
   }
 
   .mdkl-body a{
-    text-decoration: none;
-    color:#007bff;
+    color:#2b2b2b;
+    text-decoration: underline;
   }
 
   .mdkl-body a:hover{
-    color:#007bff;
+    color:#000;
     text-decoration: underline;
   }
 
